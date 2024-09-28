@@ -13,7 +13,7 @@ export default function ReviewDetail ({ params } : {
      {
     const random = getRandomInt(2)
 
-    if(random ===1) {
+    if(random === 1) {
         throw new Error('Error Loading Review')
     }
 
