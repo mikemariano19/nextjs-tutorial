@@ -17,7 +17,7 @@ export default function PhotoPage({
         <Image
           alt={photo.name}
           src={photo.src}
-          className="w-full object-cover aspect-square "
+          className="w-full object-cover aspect-square"
         />
 
         <div className="bg-white py-4">
