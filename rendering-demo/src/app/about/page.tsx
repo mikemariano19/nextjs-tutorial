@@ -7,3 +7,4 @@ export default async function AboutPage() {
     console.log("About Server Components");
     return <h1>About Page {new Date().toLocaleTimeString()}</h1>;
 }
+
